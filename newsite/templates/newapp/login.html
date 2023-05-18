@@ -93,8 +93,8 @@
             <img src="{% static 'assets/images/logo/landing-logo.png' %}" alt="sign-logo" />
           </div>
           <h3>Hello Everyone , We are Chitchat</h3>
-          <h4>Wellcome to chitchat please signup to your account.</h4>
-          <h4>{{error}}</h4>
+          <h3>Wellcome to chitchat please login to your account.</h3>
+          <h3>{{error}}</h3>
           
           <form class="form2" action="{% url 'login_user' %}" method="POST">
             {% csrf_token %}
